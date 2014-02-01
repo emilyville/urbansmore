@@ -1,0 +1,45 @@
+body {
+  font-family: 'Nobile', sans-serif;
+}
+
+img.desaturate { 
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+
+.project-container {
+	margin: 10px;
+	border: 1px solid #e6e6e6;
+	border-radius: 15px;
+}
+
+.project-container:hover {
+	border: 1px solid #ccffff;
+}
+
+.project-container:hover img.desaturate {
+    filter: none;
+    -webkit-filter: grayscale(0);}
+
+.image-container {
+	min-height: 250px;
+}
+
+.project-container img.desaturate {
+	max-height: 250px;
+	margin-right: auto;
+	margin-left: auto;
+	filter: grayscale(100%);
+}
+
+
+.project-container p, .project-container h3, h1 {
+	text-align: center;
+	font-family: 'Nobile', sans-serif;
+}
+.project-container h3 {
+	margin-top: 20px;
+	font-size: 14px;
+	font-weight: 600;
+}
