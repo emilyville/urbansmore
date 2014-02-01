@@ -1,6 +1,18 @@
 body {
   font-family: 'Nobile', sans-serif;
 }
+a{
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #777777;
+}
+
+.page-header {
+	border-bottom: none;
+}
 
 img.desaturate { 
 	-webkit-filter: grayscale(100%);
